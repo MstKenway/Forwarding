@@ -13,6 +13,7 @@ Type=simple
 PIDFile=/run/TunnelForward.pid
 ExecStart=/usr/bin/TunnelForward -f /etc/TunnelForward/config.json >/dev/null &2>1
 PrivateTmp=true
+Restart=always
   
 [Install]
 WantedBy=multi-user.target
