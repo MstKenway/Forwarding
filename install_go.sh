@@ -1,4 +1,4 @@
-wget -O /usr/bin/TunnelForward http://218.189.130.233/TunnelForward
+wget -O /usr/bin/TunnelForward http://103.136.187.104/TunnelForward
 chmod +x /usr/bin/TunnelForward
 
 
@@ -14,6 +14,8 @@ PIDFile=/run/TunnelForward.pid
 ExecStart=/usr/bin/TunnelForward -f /etc/TunnelForward/config.json >/dev/null &2>1
 PrivateTmp=true
 Restart=always
+LimitNOFILE=102400
+LimitNPROC=102400
   
 [Install]
 WantedBy=multi-user.target
